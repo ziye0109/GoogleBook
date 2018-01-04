@@ -1,0 +1,17 @@
+{
+  "name": "gbooks-challenge",
+  "version": "1.0.0",
+  "description": "Google Books Search Engine",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel main.js -o main.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Krawczyk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0"
+  }
+}

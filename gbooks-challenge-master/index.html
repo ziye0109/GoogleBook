@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Google Books Search Engine</title>
+    <!-- fetch polyfill if your browser doesn't support fetch -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+  <body>
+
+    <div id="search-area" class="book-search-area">
+      <input id="search-bar" type="text" placeholder="Input search term here" class="book-search-input">
+      <button id="search-btn" class="book-search-button" >Search</button>
+    </div>
+    
+    <div id="results-area">
+      <ul id="results"></ul>
+    </div>
+
+
+    <div id="notificaiton-area">    
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="main.js"></script>
+    <!-- for babel transpilation -->
+    <!-- <script src="main.min.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,240 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+
+.error {
+
+  color:#a94442;
+  background:#f2dede;
+  height:55px;
+  width:100%;
+  text-align:center;
+  border-radius: 4px;
+  padding:15px;
+  border-color: #ebccd1;
+
+}
+
+
+.book-search-area{
+
+    height:60px;
+    width:100%;
+    padding-top: 20px;
+    padding-left:5%;
+    padding-right:5%;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #fafafa;
+
+}
+
+
+.book-search-input{
+
+    height: 30px;
+    font-size: 17px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    float:left;
+
+}
+
+
+.book-search-button{
+
+    margin-left:5px;
+    border-radius: 3px;
+    border: 1px solid #3079ed;
+    height: 30px;
+    width:70px;
+    background-color: #357ae8;
+    color: white;
+    float:left;
+
+}
+
+
+
+
+#results{
+
+  height:100%;
+  padding-left:5%;
+  padding-right:5%;
+  list-style: none;
+  clear:both;
+
+}
+
+
+.book-card-box{
+
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
+}
+
+.book-card{
+    
+    clear:both;
+    display: block;
+    background-color: #fff;
+    border-radius: 2px;
+    outline: none;
+    list-style: none;
+    margin-bottom:50px;
+    font-weight:normal;
+    font-family: arial,sans-serif;
+
+}
+
+
+
+.book-card-header{
+
+  font-size:18px;
+  text-decoration: none;
+  color: #609;
+  font-weight: normal;
+
+
+}
+
+
+.book-card-body-flexbox{
+
+  margin-top:5px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+
+.book-card-body{
+
+  margin-top:5px;
+}
+
+
+.book-card-avator{
+
+  float:left;
+
+}
+
+.book-card-avator img{
+
+   height:74px;
+   width: 63px;
+
+}
+
+.book-card-detail{
+
+  
+  margin-left: 70px;
+  font-size: 13px;
+
+}
+
+
+.book-card-links{
+
+  margin-bottom:5px;
+
+}
+
+
+.book-card-link{
+
+  text-decoration: none;
+  color:#006621;
+
+}
+
+
+.book-card-authors{
+
+  margin-bottom:5px;
+  color:grey;
+
+}
+
+.book-card-description{
+
+  color:grey;
+  overflow:hidden;
+
+}
+
+@media only screen and (max-width: 320px){
+
+  .book-search-area{
+
+      height:60px;
+      width:100%;
+      margin-bottom: 20px;
+      text-align: center;
+      background:white;
+
+   }
+
+  .book-search-input{
+
+      margin-bottom:10px;
+      width:100%;
+   }
+
+
+   .book-search-button{
+
+      width:100%;
+      margin-left:0;
+      margin-bottom:10px;
+    } 
+
+
+   .book-card-header{
+      clear:both;
+      font-size:15px;
+    }
+
+
+
+   .book-card-avator img{
+
+      min-height: 200px;
+      min-width: 175px;
+      margin-bottom:10px;
+    }
+
+    .book-card-detail{
+
+       clear:both;
+       margin-top :10px;
+       margin:0 auto;
+    }
+
+    .book-card-authors{
+
+       float:left;
+
+    }
+
+
+    .book-card-link{
+      
+       display: none;
+    }
+
+    .book-card-description{
+
+       display: none;
+
+    }
+    
+}
